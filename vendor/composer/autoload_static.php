@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit76737a45a69a26e410ee91ea1f181a88
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
     );
 
@@ -26,6 +26,10 @@ class ComposerStaticInit76737a45a69a26e410ee91ea1f181a88
         'G' => 
         array (
             'GrahamCampbell\\ResultType\\' => 26,
+        ),
+        'E' => 
+        array (
+            'Excelent\\TelegramBot\\' => 21,
         ),
         'D' => 
         array (
@@ -53,6 +57,10 @@ class ComposerStaticInit76737a45a69a26e410ee91ea1f181a88
         'GrahamCampbell\\ResultType\\' => 
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
+        ),
+        'Excelent\\TelegramBot\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Dotenv\\' => 
         array (

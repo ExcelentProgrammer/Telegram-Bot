@@ -1,5 +1,9 @@
 {
-    "require": {
-        "vlucas/phpdotenv": "^5.4"
-    }
+    "name": "excelent/telegram-bot",
+    "autoload": {
+        "psr-4": {
+            "Excelent\\TelegramBot\\": "src/"
+        }
+    },
+    "require": {}
 }
