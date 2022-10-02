@@ -40,6 +40,15 @@ Endi Bot ishlashi uchun webhook qilish kerak
 ``
 https://api.telegram.org/bot{bot-token}/setwebhook?url={fayil-manzili}
 ``
+
+## botga yuborilgan xabarni qabul qilish
+
+Foydalanuvchi botga yuborgan Textli Xabarni Qabul qilish
+
+``php
+Bot::getText();
+``
+
   
 ## Xabar yuborish
 
