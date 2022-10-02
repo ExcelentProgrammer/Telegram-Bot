@@ -25,6 +25,13 @@ class Lang
                 } else {
                     return $text;
                 }
+            } elseif ($lang == "en") {
+                $words = json_decode(file_get_contents("lang/en.json"), true);
+                if (!empty($words[$text])) {
+                    return $words[$text];
+                } else {
+                    return $text;
+                }
             }
         } else {
             return $text;
