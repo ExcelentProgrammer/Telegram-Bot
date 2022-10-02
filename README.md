@@ -14,6 +14,7 @@
 - [Kutubxonadagi qulayliklar](#kutubxonadagi-qulayliklar)
 - [Boshlash](#boshlash)
     - [Webhook](#webhook)
+    - [botga yuborilgan xabarni qabul 0qilish](#botga-yuborilgan-xabarni-qabul-qilish)
 
 
 
@@ -45,9 +46,9 @@ https://api.telegram.org/bot{bot-token}/setwebhook?url={fayil-manzili}
 
 Foydalanuvchi botga yuborgan Textli Xabarni Qabul qilish
 
-``php
+```php
 Bot::getText();
-``
+````
 
   
 ## Xabar yuborish
