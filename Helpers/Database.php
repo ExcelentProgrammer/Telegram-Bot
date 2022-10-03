@@ -25,7 +25,7 @@ class DB
     function __construct()
     {
         try {
-            $this->con = new PDO("mysql" . ":host=" . Json::get("settings.json","host") . ";dbname=" . Json::get("settings.json","bazaName") . "", Json::get("settings.json","username"), Json::get("settings.json","password"), [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+            $this->con = new PDO("mysql" . ":host=" . Json::get("Helpers/settings.json","host") . ";dbname=" . Json::get("Helpers/settings.json","bazaName") . "", Json::get("Helpers/settings.json","username"), Json::get("Helpers/settings.json","password"), [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
             $this->conInfo = true;
         } catch (Exception $e) {
             try {

@@ -14,7 +14,7 @@ class Bot
     static function bot($method, $data = [])
     {
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot' .  Json::get("settings.json","token") . "/" . $method);
+        curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot' .  Json::get("Helpers/settings.json","token") . "/" . $method);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         $res = curl_exec($ch);
