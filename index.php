@@ -21,5 +21,6 @@ require_once "./Helpers/Database.php";
 
 require_once "./Helpers/Lang.php";
 
+require_once "./Helpers/Users.php";
 
 require_once "./Bot.php";
