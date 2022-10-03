@@ -8,5 +8,5 @@ include "./Helpers/Json.php";
 
 if(!Json::get("Helpers/settings.json","token")){
     $_SESSION = [];
-    header("location: install/index.php");
+    header("location: Install/index.php");
 }

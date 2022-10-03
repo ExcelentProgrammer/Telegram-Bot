@@ -25,8 +25,8 @@ if (session_status() == PHP_SESSION_NONE)
 	<?php include "./alert.php" ?>
 
 	<?php
-	$error = json_encode($_SESSION['error'],) ?? null;
-	$done = json_encode($_SESSION['done']) ?? null;
+	$error = json_encode($_SESSION['error'] ?? null);
+	$done = json_encode($_SESSION['done'] ?? null);
 	if ($error != "null") {
 	?>
 		<script>
