@@ -1,0 +1,482 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --shadow-color: rgb(58, 58, 58);
+    --green-yellow: greenyellow;
+    --box-shadow-02: rgb(57, 57, 56);
+    --input-color: rgb(244, 245, 239);
+}
+
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 1px 1px 100px rgba(47, 46, 46, 0.512);
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    max-width: 500px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 20px;
+}
+
+.input {
+    display: block;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(244, 245, 239);
+    transition: 1s;
+}
+
+.input:focus {
+    box-shadow: 1px 5px 10px rgb(57, 57, 56);
+    outline: none;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-input-label {
+    cursor: pointer;
+    background-color: rgb(58, 240, 234);
+    padding: 10px;
+    color: black;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(57, 57, 56), inset 2px 2px 10px rgb(57, 57, 56);
+}
+
+.file-name {
+    display: inline;
+    padding: 10px 0px 10px 0px;
+    margin-left: 5px;
+    width: 55%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 245, 239);
+}
+
+.form-footer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.submit-button {
+    float: right;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+
+.submit-button:hover {
+    box-shadow: inset 1px 1px 10px rgb(57, 57, 56);
+}
+
+.nav-header {
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar ul li {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbar ul li a {
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar {
+    margin-right: 20px;
+}
+
+.nav-header {
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 10px rgb(57, 57, 56), inset 0px 0px 1px rgb(57, 57, 56);
+}
+
+.navbar ul li a:hover {
+    color: greenyellow;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.container-center {
+    position: absolute;
+    top: 65%;
+    box-shadow: 1px 1px 100px rgb(57, 57, 56);
+    border-radius: 10px;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -65%);
+}
+
+.container-center {
+
+    max-height: 500px;
+    max-width: 500px;
+    overflow-y: auto;
+}
+.container-center::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.description {
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(244, 245, 239);
+    transition: 1s;
+}
+
+
+.description:focus {
+    box-shadow: 1px 5px 10px rgb(57, 57, 56);
+    outline: none;
+}
+
+.alert {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 50px rgb(65, 63, 63), -0px 0px 10px rgb(65, 63, 63);
+    text-align: center;
+    width: 80%;
+    max-height: 20%;
+    max-width: 500px;
+    position: fixed;
+    display: none;
+    top: 10px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%) !important;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.alert-text {
+    text-align: center;
+    display: inline;
+    margin: auto auto;
+}
+
+.close-button {
+    float: right;
+    margin: auto 15px auto 0px;
+    font-size: 30px;
+    color: red;
+    right: 10px;
+    cursor: pointer;
+}
+
+.alert-body {
+    overflow: scroll;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.alert-body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px var(--shadow-color), -0px -0px 2px var(--shadow-color);
+    transition: 1s;
+}
+
+.card-header h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.grid-item:hover {
+    box-shadow: 3px 3px 10px rgb(58, 58, 58);
+}
+
+.grid-card-item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 2px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 1px var(--shadow-color), -1px -1px 1px var(--shadow-color);
+    transition: 0.5s;
+}
+
+.grid-card-item:hover {
+    box-shadow: 3px 3px 10px var(--shadow-color);
+}
+
+.card-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.icon {
+    margin: auto 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.icon:hover {
+    box-shadow: 3px 3px 10px var(--shadow-color);
+}
+
+.delete-icon {
+    color: red;
+}
+
+.edit-icon {
+    color: greenyellow;
+}
+
+.button-continue {
+    float: right;
+    text-decoration: none;
+}
+
+.alert-button {
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.button-close {
+    float: left;
+    border: none;
+    outline: none;
+}
+
+.p-5 {
+    padding: 50px !important;
+
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.p-1 {
+    padding: 10px !important;
+
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px !important;
+    border: none;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--green-yellow);
+    transition: 0.4s;
+}
+
+.btn-primary:hover {
+    box-shadow: 3px 3px 5px var(--shadow-color);
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(300px 1fr);
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.new-product button {
+    margin-right: 20px;
+}
+
+.search {
+    width: 100%;
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.header-search input {
+    display: inline;
+    width: 80%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.header-search svg {
+    position: relative;
+    top: 15px;
+    background-color: #f4f5ef;
+    padding-top: 3px;
+    margin-right: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 3px;
+    transition: 0.5s;
+}
+
+.header-search svg:hover {
+    box-shadow: 4px 5px 10px var(--box-shadow-02) !important;
+
+}
+
+.header-search button {
+    border: none;
+    height: 0px;
+}
+
+.search-input {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.select {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--input-color);
+    border-radius: 10px;
+    height: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.select:focus {
+    outline: none;
+    box-shadow: 3px 5px 10px var(--box-shadow-02);
+}
+.select:hover{
+    box-shadow: 3px 5px 10px var(--box-shadow-02);
+}
+
+.select-option{
+    font-size: 200%;
+}
+
+
+.table-head th{
+    text-align: center;
+    border-bottom: 2px solid var(--shadow-color);
+}
+.table{
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid var(--shadow-color);
+    box-shadow: 2px 2px 5px var(--box-shadow-02),-2px -2px 5px var(--box-shadow-02);
+}
+.table-body td{
+    text-align: center;
+    padding: 10px 0px;
+    padding-left: 10px;
+    max-width: 200px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+.table-body td::-webkit-scrollbar{
+    display: none;
+}
+.table-body td svg{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.alert-input{
+    width: 90% !important;
+    margin: auto;
+    margin-top: 10px;
+}
+
+

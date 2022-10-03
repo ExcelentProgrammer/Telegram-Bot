@@ -3,6 +3,7 @@
 namespace Database;
 use Exception;
 use Helpers;
+use Json;
 use PDO;
 
 class DB
@@ -24,7 +25,7 @@ class DB
     function __construct()
     {
         try {
-            $this->con = new PDO($_ENV['DB_TYPE'] . ":host=" . $_ENV['DB_HOST'] . ";dbname=" . $_ENV['DB_NAME'] . "", $_ENV['DB_USERNAME'], $_ENV['DB_PASSWORD'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+            $this->con = new PDO("mysql" . ":host=" . Json::get("settings.json","host") . ";dbname=" . Json::get("settings.json","bazaName") . "", Json::get("settings.json","username"), Json::get("settings.json","password"), [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
             $this->conInfo = true;
         } catch (Exception $e) {
             try {

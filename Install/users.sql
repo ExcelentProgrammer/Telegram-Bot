@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net
 --
 -- Хост: localhost
--- Время создания: Окт 02 2022 г., 16:02
+-- Время создания: Окт 02 2022 г., 22:32
 -- Версия сервера: 10.3.36-MariaDB-cll-lve
 -- Версия PHP: 5.4.16
 
@@ -35,24 +35,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   `page` varchar(255) DEFAULT 'home',
   `addres` text DEFAULT NULL,
   `language` varchar(255) NOT NULL DEFAULT 'lotin',
-  `balanse` varchar(255) NOT NULL DEFAULT '0',
-  `vote` varchar(255) NOT NULL DEFAULT '0',
-  `paid` varchar(255) NOT NULL DEFAULT '0',
-  `suggested` varchar(255) NOT NULL DEFAULT '0',
   `phone` text DEFAULT NULL,
   `status` varchar(255) NOT NULL DEFAULT '0',
   `isBlock` int(11) NOT NULL DEFAULT 0,
   `token` text DEFAULT NULL,
   `rid` text DEFAULT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
-
---
--- Дамп данных таблицы `users`
---
-
-INSERT INTO `users` (`id`, `userId`, `firstName`, `lastName`, `userName`, `page`, `addres`, `language`, `balanse`, `vote`, `paid`, `suggested`, `phone`, `status`, `isBlock`, `token`, `rid`) VALUES
-(10, '1769851684', 'Samandar', 'Azamov', 'Azamov_Samandar_xl', 'home', NULL, 'uz', '0', '0', '0', '0', NULL, '0', 0, NULL, NULL),
-(11, '2092976952', 'Shohbozbek Turgunov', NULL, 'Shohbozbek_2402', 'home', NULL, 'uz', '0', '0', '0', '0', NULL, '0', 0, NULL, NULL);
 
 --
 -- Индексы сохранённых таблиц
