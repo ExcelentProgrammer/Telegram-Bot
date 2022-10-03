@@ -9,10 +9,6 @@ require_once "./Install/check.php";
 
 require_once "./vendor/autoload.php";
 
-
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
 require_once "./Helpers/Json.php";
 
 require_once "./Helpers/Helpers.php";

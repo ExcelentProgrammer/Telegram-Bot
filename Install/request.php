@@ -41,7 +41,7 @@ if (preg_match("/^[0-9]{1,20}:(.*)/", $token)) {
 
     $domain = $_SERVER['HTTP_HOST'];
     $url = $_SERVER['REQUEST_URI'];
-    $url = str_replace("/install/request.php", "", $url);
+    $url = str_replace("/Install/request.php", "", $url);
     $domain = "https://" . $domain . "" . $url . "/index.php";
     $res = request("https://api.telegram.org/bot" . $token . "/setWebhook?url=" . $domain);
     $res = json_decode($res);
