@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `userName` text DEFAULT NULL,
   `page` varchar(255) DEFAULT 'home',
   `addres` text DEFAULT NULL,
-  `language` varchar(255) NOT NULL DEFAULT 'lotin',
+  `language` varchar(255) NOT NULL DEFAULT 'uz',
   `phone` text DEFAULT NULL,
   `status` varchar(255) NOT NULL DEFAULT '0',
   `isBlock` int(11) NOT NULL DEFAULT 0,
