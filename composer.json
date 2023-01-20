@@ -1,0 +1,12 @@
+{
+    "name": "excelent/telegram-bot",
+    "autoload": {
+        "psr-4": {
+            "Excelent\\TelegramBot\\": "src/"
+        }
+    },
+    "require": {
+      "ext-json": "*",
+      "ext-curl": "*"
+    }
+}

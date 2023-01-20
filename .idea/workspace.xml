@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35f9c12d-0e6f-4023-8dfe-48174b625e84" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2IxB7EfOWenkxUHswAEnEVsbhNs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "D:/php-telegram-bot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Vue"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35f9c12d-0e6f-4023-8dfe-48174b625e84" name="Default Changelist" comment="" />
+      <created>1671113187416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671113187416</updated>
+      <workItem from="1671113194108" duration="7936000" />
+      <workItem from="1671181582045" duration="144000" />
+      <workItem from="1671269211409" duration="203000" />
+      <workItem from="1671464873612" duration="1216000" />
+      <workItem from="1671467951502" duration="8192000" />
+      <workItem from="1671529711470" duration="2713000" />
+      <workItem from="1671541682622" duration="33000" />
+      <workItem from="1671541783269" duration="402000" />
+      <workItem from="1671630495447" duration="5681000" />
+      <workItem from="1671950991783" duration="16096000" />
+      <workItem from="1672129359539" duration="39000" />
+      <workItem from="1672653056852" duration="7803000" />
+      <workItem from="1672736890991" duration="45000" />
+      <workItem from="1672736953288" duration="61000" />
+      <workItem from="1672737277596" duration="22000" />
+      <workItem from="1672737876338" duration="1041000" />
+      <workItem from="1672739630555" duration="1022000" />
+      <workItem from="1673020241034" duration="147000" />
+      <workItem from="1673020434262" duration="1504000" />
+      <workItem from="1673021992986" duration="1363000" />
+      <workItem from="1673172214350" duration="10865000" />
+      <workItem from="1673446822957" duration="5090000" />
+      <workItem from="1673539421873" duration="7435000" />
+      <workItem from="1673702214134" duration="16313000" />
+      <workItem from="1673767818784" duration="19142000" />
+      <workItem from="1673791617037" duration="15268000" />
+      <workItem from="1673877770189" duration="20172000" />
+      <workItem from="1673935231860" duration="6016000" />
+      <workItem from="1673945372472" duration="1204000" />
+      <workItem from="1673966819857" duration="6197000" />
+      <workItem from="1673974760108" duration="6072000" />
+      <workItem from="1673985697917" duration="358000" />
+      <workItem from="1674016560656" duration="1104000" />
+      <workItem from="1674022505723" duration="4000" />
+      <workItem from="1674051966865" duration="9246000" />
+      <workItem from="1674132194217" duration="9282000" />
+      <workItem from="1674203965136" duration="1149000" />
+      <workItem from="1674221170432" duration="926000" />
+      <workItem from="1674223261331" duration="6000" />
+      <workItem from="1674223342707" duration="206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
